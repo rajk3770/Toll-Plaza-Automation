@@ -101,7 +101,7 @@ $long=$_GET["long"];
 //header("Content-Type: application/json; charset=UTF-8");
 //$obj = json_decode($_POST["x"], false);
 
-$conn = new mysqli("localhost", "root", "03041999", "hackathon");
+$conn = new mysqli("localhost", "root", "your_password", "hackathon");
 $res = $conn->query("SELECT * from toll") or die($conn->error);
 
 //echo ($obj->latitude);
