@@ -144,7 +144,7 @@ xmlhttp.send("x=" + dbParam);
       }
     </script>
     <script async defer
-    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAfFR4DlkAe9x1eBBbw6ssLDMcPxGDzrjw">
+    src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY">
     </script>
 
     <div id="text"></div>
