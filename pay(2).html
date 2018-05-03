@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<div class="container">
+<center>  
+  <div class="alert alert-success alert-dismissable" padding=140px>
+    <!--<a href="#" class="close" data-dismiss="alert" aria-label="close">X</a>-->
+   <h1> <strong><B>PAYMENT SUCCESSFUL!</B></strong></h1>  
+  </div>
+<img src="C:\Users\maitr\Downloads\check-mark-1292787_1280.png" height=180px width=200px>
+</center>
+  </div>
+<div>
+<div id="details"></div>
+<div id="time"></div>
+<script>
+function makeid() {
+  var text = "";
+  var possible = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";
+
+  for (var i = 0; i < 10; i++)
+    text += possible.charAt(Math.floor(Math.random() * possible.length));
+
+  return text;
+}
+document.getElementById('details').innerHTML="<center><h2><b>Transaction ID:<b><h2> " + makeid() + "</center>";
+var d=new Date().toLocaleTimeString();
+document.getElementById('time').innerHTML+="<br><center><h3>Time of Transaction:" + d + "<h3></center>";
+</script>
+
+</body>
+</html>
+
