@@ -1,8 +1,10 @@
 # Codeshashtra
-This is a webapp for automation of Toll Plaza(s).
+This webapp was developed as part of annual hackathon, Codeshashtra 2017 at DJSCE. 
 
-Certain Kilometres before Toll plaza, a SMS is received on the mobile phone of the approaching user with Toll name and amount of applicable Toll Fee.
+User will be notified with SMS containing information about the approaching Toll Plaza and amount of applicable Toll Fee. 
 
-An electronic receipt is generated more specifically a QRCode which can be shown at the Toll Booth. 
+Payment can be facilitated through mobile wallets or credit cards (Sandbox Payments). 
 
-A list of all the toll plaza and respective services are made available in the webapp.
+An electronic receipt i.e QRCode will be generated with Transaction ID embedded inside it which could be shown at Toll Plaza. 
+
+Also, a list of Toll Plaza and respective services is made available in the app.
