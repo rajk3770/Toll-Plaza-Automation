@@ -1,4 +1,4 @@
-# Codeshashtra
+# Toll Plaza Automation
 This webapp was developed as part of annual hackathon, Codeshashtra 2017 at DJSCE. 
 
 User will be notified with SMS containing information about the approaching Toll Plaza and amount of applicable Toll Fee. 
